@@ -1,0 +1,260 @@
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,300italic,400italic,500italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900,300,200,100);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
+
+$font-header-sans: 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$font-body-sans: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$font-stack-serif: 'Helvetica Neue', serif;
+$bg-color: #ccc;
+$primary-color: #000;
+$text-color: darken($primary-color, 16%);
+$secondary-color: #B3B3B3;
+$special-color: #D84315;
+
+// Mixins
+@mixin transition ($property, $duration, $timing, $delay){
+    -webkit-transition:$property $duration $timing $delay;
+    -moz-transition:$property $duration $timing $delay;
+    -o-transition:$property $duration $timing $delay;
+    transition:$property $duration $timing $delay;
+
+}
+
+@mixin box-sizing ($box){
+    -webkit-box-sizing:$box;
+    -moz-box-sizing:$box;
+    -o-box-sizing:$box;
+    box-sizing:$box;
+}
+
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flex($values) {
+  -webkit-box-flex: $values;
+  -moz-box-flex:  $values;
+  -webkit-flex:  $values;
+  -ms-flex:  $values;
+  flex: $values;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    @include box-sizing(border-box);
+}
+
+a {
+    text-decoration: none;
+    color: $primary-color;
+}
+
+body {
+  width: 100%;
+  background-color: $bg-color;
+}
+
+.page {
+  width: 700px;
+  height: 900px;
+  margin: auto;
+  padding: 20px; // prev 50
+  background-color: #fff;
+  // border: 1px solid black;
+}
+
+.logo-section {
+  display: block;
+  // margin-bottom: 10px;
+}
+
+.logo {
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    #ms-logo {
+      width: 36px;
+      @include transition(all, 0.3s, ease-out, 0s);
+    }
+    &:hover {
+        #ms-logo {
+            fill: darken($primary-color, 16%);
+        }
+    }
+}
+
+.separator {
+  opacity: 0.1;
+  margin-bottom: 16px;
+}
+
+.bottom {
+  width: 100%; // prev 180
+  float: left;
+  margin-top: 24px;
+  margin-right: 20px; // prev 54
+  display: inline-block;
+}
+
+.right {
+  width: 420px;
+  float: left;
+  // display: inline-block;
+  height: 100%;
+}
+
+.content {
+  font-family: $font-stack-serif;
+  // margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: $primary-color;
+}
+
+.profile {
+  // margin-bottom: 40px;
+  margin-right: 4px;
+  display: inline-block;
+  width: 220px;
+}
+
+.contact {
+  display: inline-block;
+
+  .column {
+    display: inline-block;
+    text-align: right;
+    margin-left: 32px;
+  }
+}
+
+.sub-list {
+  margin-top: 16px;
+}
+
+ul {
+  // margin-top: 10px;
+  margin-left: 16px;
+  // list-style-type: none;
+}
+
+h1 {
+  font-family: $font-header-sans;
+  font-size: 14px;
+  color: $primary-color;
+  text-transform: uppercase;
+  font-weight: 900;
+
+  &.section-header {
+    color: $special-color;
+  }
+}
+
+h2 {
+  font-family: $font-header-sans;
+  font-weight: 800;
+  color: $primary-color;
+  font-size: 14px;
+  display: block;
+
+  .sub {
+    font-weight: 500;
+  }
+
+  .link {
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .sub-block {
+    display: block;
+    font-weight: 400;
+  }
+
+  &.body-header {
+    font-family: $font-body-sans;
+    display: inline-block;
+  }
+}
+
+h6 {
+  display: inline-block;
+  float: right;
+  font-family: $font-header-sans;
+  font-size: 14px;
+  color: $primary-color;
+  font-weight: 400;
+
+  &.metadata {
+    font-family: $font-body-sans;
+    color: $secondary-color;
+  }
+}
+
+li {
+  .bold {
+    font-weight: 500;
+  }
+}
+
+.sub-experience {
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.education {
+  // margin-top: 40px;
+  display: inline-block;
+  width: 320px;
+  float: left;
+  margin-right: 20px;
+
+  h6 {
+    float: none;
+    display: block;
+  }
+
+  .metadata {
+    margin-bottom: 8px;
+  }
+}
+
+
+.interests {
+  // display: none;
+  margin-top: 40px;
+
+  .sub-list {
+    margin-top: 0px;
+  }
+}
+
+.projects {
+  margin-top: 24px;
+  .content {
+    margin-top: 0px;
+  }
+
+  .sub-list {
+    margin-top: 4px;
+  }
+}
+
+.skills {
+  width: 320px;
+  display: inline-block;
+  ul {
+    list-style-type: none;
+    margin-left: 0;
+  }
+  .sub-list {
+    margin-top: 8px;
+  }
+}

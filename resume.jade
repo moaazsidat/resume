@@ -1,0 +1,27 @@
+doctype html
+html(lang='en')
+  head
+    title Moaaz Sidat - Resume
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(href='./stylesheets/resume.css', rel='stylesheet', type='text/css')
+  body
+    - var dev = true
+    .page
+      .logo-section
+        a.logo(href='http://moaazsidat.com/')
+          img#ms-logo(src='./img/logo.svg')
+        include ./_profile.jade
+      hr.separator  
+      include ./_experience.jade
+      include ./_projects.jade
+      
+      .bottom
+        include ./_education.jade    
+        
+        .skills
+          h1.section-header Skills &amp; Tools            
+          if (!dev)
+            include ./_design.jade
+          else
+            include ./_dev.jade

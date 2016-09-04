@@ -1,0 +1,161 @@
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,300italic,400italic,500italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900,300,200,100);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+body {
+  width: 100%;
+  background-color: #ccc; }
+
+.page {
+  width: 700px;
+  height: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff; }
+
+.logo-section {
+  display: block; }
+
+.logo {
+  display: inline-block;
+  margin-bottom: 16px;
+  margin-right: 16px; }
+  .logo #ms-logo {
+    width: 36px;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s; }
+  .logo:hover #ms-logo {
+    fill: black; }
+
+.separator {
+  opacity: 0.1;
+  margin-bottom: 16px; }
+
+.bottom {
+  width: 100%;
+  float: left;
+  margin-top: 24px;
+  margin-right: 20px;
+  display: inline-block; }
+
+.right {
+  width: 420px;
+  float: left;
+  height: 100%; }
+
+.content {
+  font-family: "Helvetica Neue", serif;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #000; }
+
+.profile {
+  margin-right: 4px;
+  display: inline-block;
+  width: 220px; }
+
+.contact {
+  display: inline-block; }
+  .contact .column {
+    display: inline-block;
+    text-align: right;
+    margin-left: 32px; }
+
+.sub-list {
+  margin-top: 16px; }
+
+ul {
+  margin-left: 16px; }
+
+h1 {
+  font-family: "Avenir", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 900; }
+  h1.section-header {
+    color: #D84315; }
+
+h2 {
+  font-family: "Avenir", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 800;
+  color: #000;
+  font-size: 14px;
+  display: block; }
+  h2 .sub {
+    font-weight: 500; }
+  h2 .link {
+    font-weight: 400;
+    font-style: italic; }
+  h2 .sub-block {
+    display: block;
+    font-weight: 400; }
+  h2.body-header {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    display: inline-block; }
+
+h6 {
+  display: inline-block;
+  float: right;
+  font-family: "Avenir", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  color: #000;
+  font-weight: 400; }
+  h6.metadata {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #B3B3B3; }
+
+li .bold {
+  font-weight: 500; }
+
+.sub-experience {
+  margin-top: 10px;
+  margin-bottom: 16px; }
+
+.education {
+  display: inline-block;
+  width: 320px;
+  float: left;
+  margin-right: 20px; }
+  .education h6 {
+    float: none;
+    display: block; }
+  .education .metadata {
+    margin-bottom: 8px; }
+
+.interests {
+  margin-top: 40px; }
+  .interests .sub-list {
+    margin-top: 0px; }
+
+.projects {
+  margin-top: 24px; }
+  .projects .content {
+    margin-top: 0px; }
+  .projects .sub-list {
+    margin-top: 4px; }
+
+.skills {
+  width: 320px;
+  display: inline-block; }
+  .skills ul {
+    list-style-type: none;
+    margin-left: 0; }
+  .skills .sub-list {
+    margin-top: 8px; }
+
+/*# sourceMappingURL=resume.css.map */
