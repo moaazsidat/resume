@@ -65,7 +65,7 @@ body {
   width: 700px;
   height: 900px;
   margin: auto;
-  padding: 8  px; // prev 50
+  padding: 0px; // prev 50
   background-color: #fff;
   // border: 1px solid black;
 }
@@ -98,7 +98,7 @@ body {
 .bottom {
   width: 100%; // prev 180
   float: left;
-  margin-top: 24px;
+  margin-top: 16px;
   margin-right: 20px; // prev 54
   display: inline-block;
 }
@@ -140,7 +140,16 @@ body {
 }
 
 .sub-list-inline {
-  margin-top: 16px;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.mr-32px {
+  margin-right: 32px;
+}
+
+.mr-72px {
+  margin-right: 72px;
 }
 
 ul {
@@ -210,7 +219,7 @@ li {
 
 .sub-experience {
   margin-top: 10px;
-  margin-bottom: 16px;
+  // margin-bottom: 16px;
 }
 
 .education {
@@ -241,7 +250,7 @@ li {
 }
 
 .projects {
-  margin-top: 24px;
+  margin-top: 16px;
   .content {
     margin-top: 0px;
   }

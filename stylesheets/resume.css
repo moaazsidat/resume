@@ -22,7 +22,7 @@ body {
   width: 700px;
   height: 900px;
   margin: auto;
-  padding: 8  px;
+  padding: 0px;
   background-color: #fff; }
 
 .logo-section {
@@ -48,7 +48,7 @@ body {
 .bottom {
   width: 100%;
   float: left;
-  margin-top: 24px;
+  margin-top: 16px;
   margin-right: 20px;
   display: inline-block; }
 
@@ -79,7 +79,14 @@ body {
   margin-top: 16px; }
 
 .sub-list-inline {
-  margin-top: 16px; }
+  display: inline-block;
+  margin-top: 4px; }
+
+.mr-32px {
+  margin-right: 32px; }
+
+.mr-72px {
+  margin-right: 72px; }
 
 ul {
   margin-left: 16px; }
@@ -126,8 +133,7 @@ li .bold {
   font-weight: 500; }
 
 .sub-experience {
-  margin-top: 10px;
-  margin-bottom: 16px; }
+  margin-top: 10px; }
 
 .education {
   display: inline-block;
@@ -146,7 +152,7 @@ li .bold {
     margin-top: 0px; }
 
 .projects {
-  margin-top: 24px; }
+  margin-top: 16px; }
   .projects .content {
     margin-top: 0px; }
   .projects .sub-list {
