@@ -22,7 +22,7 @@ body {
   width: 700px;
   height: 900px;
   margin: auto;
-  padding: 20px;
+  padding: 8  px;
   background-color: #fff; }
 
 .logo-section {
@@ -76,6 +76,9 @@ body {
     margin-left: 32px; }
 
 .sub-list {
+  margin-top: 16px; }
+
+.sub-list-inline {
   margin-top: 16px; }
 
 ul {
