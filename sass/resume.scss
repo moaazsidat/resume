@@ -65,7 +65,7 @@ body {
   width: 700px;
   height: 900px;
   margin: auto;
-  padding: 20px; // prev 50
+  padding: 8  px; // prev 50
   background-color: #fff;
   // border: 1px solid black;
 }
@@ -136,6 +136,10 @@ body {
 }
 
 .sub-list {
+  margin-top: 16px;
+}
+
+.sub-list-inline {
   margin-top: 16px;
 }
 
