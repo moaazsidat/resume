@@ -11,17 +11,17 @@ html(lang='en')
       .logo-section
         a.logo(href='http://moaazsidat.com/')
           img#ms-logo(src='./img/logo.svg')
-        include ./_profile.jade
+        include ./_profile.pug
       hr.separator  
-      include ./_experience.jade
-      include ./_projects.jade
+      include ./_experience.pug
+      include ./_projects.pug
       
       .bottom
-        include ./_education.jade    
+        include ./_education.pug    
         
         .skills
           h1.section-header Skills &amp; Tools            
           if (!dev)
-            include ./_design.jade
+            include ./_design.pug
           else
-            include ./_dev.jade
+            include ./_dev.pug
