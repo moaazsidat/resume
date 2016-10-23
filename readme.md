@@ -22,7 +22,7 @@ To use this template, you'll need to have the [Pug CLI](https://github.com/pugjs
 ### Generating a PDF
 If I need to generate a PDF, I usually open the file in my browser, and print as PDF. Could use something like `html-pdf` or `pug-pdf` if you prefer a command line tool, but really haven't found myself needing that for now.
 
-## Contributers
+## Contributors
 * [Jacob Willemsma](https://github.com/jacobwills)
 
 ## License
