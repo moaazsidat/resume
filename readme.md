@@ -1,7 +1,6 @@
 # Resume Template
 
 I designed my first resume using Illustrator. Then I gave Sketch a shot. I even tried LaTeX. None of these fit my evolving needs. Because I wanted finer control over layout and styling, as well as the ability to add conditionals, I decided to use Pug and sass to build a template for my resume. 
->>>>>>> 07b11bb... changing use of jade to pug (the new name)
 
 I wrote this template for myself quite a while back. Feel free to use it however you see fit. If you do use it, all I ask is for you to shout at [me on Twitter](https://twitter.com/moaazsidat) 🙌. If you have any questions, simply plop in an issue.
 
