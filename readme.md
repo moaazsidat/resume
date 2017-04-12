@@ -12,7 +12,7 @@ I wrote this template for myself quite a while back. Feel free to use it however
 ### Templating
 To use this template, you'll need to have the [Pug CLI](https://github.com/pugjs/pug) and [sass](http://sass-lang.com/install). 
 
-1. Clone the repo
+1. Fork and clone the repo
 2. `cd resume`
 3. `pug -p resume.pug < resume.pug > resume.html`
 
