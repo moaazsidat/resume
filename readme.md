@@ -4,7 +4,7 @@ I designed my first resume using Illustrator. Then I gave Sketch a shot. I even 
 
 I wrote this template for myself quite a while back. Feel free to use it however you see fit. If you do use it, all I ask is for you to shout at [me on Twitter](https://twitter.com/moaazsidat) 🙌. If you have any questions, simply plop in an issue.
 
-[Here's my latest resume generated from this template](http://moaazsidat.com/resume/MoaazSidat_resume.pdf).
+[Here's my latest resume generated from this template](http://moaazsidat.com/resume.pdf).
 
 ## Requirements
 * [pug-cli](https://github.com/pugjs/pug-cli)
