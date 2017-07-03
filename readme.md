@@ -6,6 +6,9 @@ I wrote this template for myself quite a while back. Feel free to use it however
 
 [Here's my latest resume generated from this template](http://moaazsidat.com/resume/MoaazSidat_resume.pdf).
 
+## Requirements
+* [pug-cli](https://github.com/pugjs/pug-cli)
+* [sass](http://sass-lang.com/install)
 
 ## Usage
 
@@ -15,6 +18,8 @@ To use this template, you'll need to have the [Pug CLI](https://github.com/pugjs
 1. Clone the repo
 2. `cd resume`
 3. `pug -p resume.pug < resume.pug > resume.html`
+
+You may use `pug -w .` to watch for changes and render automatically.
 
 ### Styling
 `sass --watch sass/resume.scss:stylesheets/resume.css`
