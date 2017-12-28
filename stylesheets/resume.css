@@ -137,9 +137,9 @@ h6 {
 
 .education {
   display: inline-block;
-  width: 320px;
+  width: 340px;
   float: left;
-  margin-right: 20px; }
+  margin-right: 0px; }
   .education h6 {
     float: none;
     display: block; }
@@ -159,7 +159,7 @@ h6 {
     margin-top: 4px; }
 
 .skills {
-  width: 320px;
+  width: 340px;
   display: inline-block; }
   .skills ul {
     list-style-type: none;
