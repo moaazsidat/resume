@@ -130,7 +130,10 @@ h6 {
     color: #B3B3B3; }
 
 .bold {
-  font-weight: 500; }
+  font-weight: 600; }
+
+.italic {
+  font-style: italic; }
 
 .sub-experience {
   margin-top: 10px; }
