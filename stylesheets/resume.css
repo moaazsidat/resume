@@ -96,12 +96,9 @@ h1 {
   font-size: 14px;
   color: #000;
   text-transform: uppercase;
-  font-weight: 900;
-}
-
-h1.section-header {
-  color: #D84315;
-}
+  font-weight: 900; }
+  h1.section-header {
+    color: #D84315; }
 
 h2 {
   font-family: "Avenir", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -132,17 +129,20 @@ h6 {
     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     color: #B3B3B3; }
 
-li .bold {
-  font-weight: 500; }
+.bold {
+  font-weight: 600; }
+
+.italic {
+  font-style: italic; }
 
 .sub-experience {
   margin-top: 10px; }
 
 .education {
   display: inline-block;
-  width: 320px;
+  width: 340px;
   float: left;
-  margin-right: 20px; }
+  margin-right: 0px; }
   .education h6 {
     float: none;
     display: block; }
@@ -162,7 +162,7 @@ li .bold {
     margin-top: 4px; }
 
 .skills {
-  width: 320px;
+  width: 340px;
   display: inline-block; }
   .skills ul {
     list-style-type: none;

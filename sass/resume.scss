@@ -210,10 +210,12 @@ h6 {
   }
 }
 
-li {
-  .bold {
-    font-weight: 500;
-  }
+.bold {
+  font-weight: 600;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .sub-experience {
@@ -224,9 +226,9 @@ li {
 .education {
   // margin-top: 40px;
   display: inline-block;
-  width: 320px;
+  width: 340px;
   float: left;
-  margin-right: 20px;
+  margin-right: 0px;
 
   h6 {
     float: none;
@@ -260,7 +262,7 @@ li {
 }
 
 .skills {
-  width: 320px;
+  width: 340px;
   display: inline-block;
   ul {
     list-style-type: none;
